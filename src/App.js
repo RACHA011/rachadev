@@ -1,6 +1,5 @@
-import './App.css';
-import AppRouter from './router/AppRouter';
-import { Analytics } from "@vercel/analytics/react"
+import "./App.css";
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (

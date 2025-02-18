@@ -1,5 +1,5 @@
 import React from 'react';
-import handleSubmit from '../handleemails/handleSubmit.js'; // Adjust the path to your email handler
+import handleSubmit from '../config/handleemails/handleSubmit.js'; // Adjust the path to your email handler
 import '../assets/css/Contact.css'; // Import the CSS file
 
 function Contact() {
