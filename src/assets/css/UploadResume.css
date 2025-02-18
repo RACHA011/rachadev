@@ -1,0 +1,89 @@
+.upload-resume-container {
+    flex: 1;
+    padding: 2rem;
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+  
+  .upload-resume-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .upload-resume-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .file-upload-label {
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+    border: 2px dashed var(--border);
+    border-radius: var(--radius);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  .file-upload-label:hover {
+    background-color: var(--muted);
+    border-color: var(--primary);
+  }
+  
+  .file-upload-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .file-upload-input {
+    display: none;
+  }
+  
+  .error-message {
+    color: hsl(0, 72%, 51%);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .upload-button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent);
+    color: var(--accent-foreground);
+    border: none;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .upload-button:hover {
+    background-color: var(--accent/0.8);
+  }
+  
+  .file-preview-container {
+    margin-top: 2rem;
+  }
+  
+  .file-preview-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .file-preview {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }

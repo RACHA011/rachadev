@@ -1,0 +1,56 @@
+.welcome-admin-container {
+    width: 95%;
+    background-color: var(--background);
+    color: var(--primary-foreground);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Admin Avatar */
+.admin-avatar {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    /* Equivalent to mb-4 */
+}
+
+/* Welcome Title */
+.welcome-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Welcome Description */
+.welcome-description {
+    margin-bottom: 1rem;
+    /* Equivalent to mb-4 */
+    color: var(--muted-foreground);
+}
+
+/* About Me Card */
+.about-me-card {
+    background-color: var(--card);
+    color: var(--card-foreground);
+    padding: 1rem;
+    /* Equivalent to p-4 */
+    border-radius: 0.5rem;
+}
+
+/* About Me Title */
+.about-me-title {
+    font-size: 1.25rem;
+    /* Equivalent to text-xl */
+    font-weight: 600;
+    /* Equivalent to font-semibold */
+    margin-bottom: 0.5rem;
+    /* Equivalent to mb-2 */
+}
+
+/* About Me Description */
+.about-me-description {
+    color: var(--muted-foreground);
+}

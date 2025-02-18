@@ -1,0 +1,54 @@
+.resume-container {
+  padding: 2rem;
+  background-color: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+.resume-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.resume-iframe {
+  width: 100%;
+  height: 600px;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: var(--primary-hover);
+  /* color: var(--primary); */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-iframe {
+    height: 400px;
+  }
+}
